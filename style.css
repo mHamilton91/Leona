@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Cinzel', serif;
+}
+
+body {
+}
+
+.background {
+	background: center center;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("./images/forrest.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+	/* background-color: rgba(28, 120, 175, 0.25); */
+	background-color: rgba(0, 0, 0, 1);
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+header li{
+	color: #FFF;
+	display: inline-block;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+header li .home {
+	font-size: 30px;
+	padding-right: 20px;
+}
+
+header li:hover {
+	color: #05a1ff;
+}
+
+.bandLogo {
+	/* background: linear-gradient(to right, rgba(76, 191, 168, 0.7), rgba(76, 191, 168, 0.7), url("./images/test.jpg"); */
+	color: rgba(76, 191, 168, 0.2);
+	text-align: center;
+	font-size: 200px;
+	padding-top: 120px;
+	font-family: "Death Ocean";
+	-webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.mediaTemp, .datesTemp {
+	color: #FFF;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 440px;
+}
+
+.contact {
+	text-align: center;
+	color: #FFF;
+	padding-top: 120px;
+}
+
+.contact h1 {
+	font-size: 100px;
+	padding-bottom: 20px;
+}
+
+.contact form {
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 55px; 
+	border-radius: 20px;
+	background-color: rgba(128, 131, 132, 0.2);
+	width: 800px;
+	height: 500px;
+	box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+label {
+	color: #FFF;
+}
+
+input, textarea {
+	border: 1px solid #979899;
+	background-color: rgba(232, 232, 232, 0.9);
+}
+
+.contact section {
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.secName {
+	padding-right: 98px;
+}
+
+#name, #email {
+	height: 30px;
+	width: 295px;
+}
+
+#subject {
+	width: 695px;
+	height: 30px;
+}
+
+#message {
+	width: 695px;
+	height: 180px;
+}
+
+.submit {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(28, 120, 175);
+	border: 2px solid rgb(13, 65, 96);
+	color: #FFF;
+}
+
+.submit:hover {
+	background-color: rgb(13, 65, 96);
+	border: 1px solid #FFF;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 140px;
+	padding-left: 45px;
+}
+
+.logo .logoImg {
+	height: 200px;
+	width: 800px;
+}
